@@ -1,65 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="110" started-at="2019-07-15T04:06:59Z" finished-at="2019-07-15T04:07:00Z">
+  <suite name="Failed suite [Failed suite [Failed suite [Suite]]]" duration-ms="67" started-at="2019-07-30T04:22:15Z" finished-at="2019-07-30T04:22:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="110" started-at="2019-07-15T04:06:59Z" finished-at="2019-07-15T04:07:00Z">
+    <test name="Test(failed)(failed)(failed)" duration-ms="67" started-at="2019-07-30T04:22:15Z" finished-at="2019-07-30T04:22:15Z">
       <class name="Testcases.testngclass">
-        <test-method status="PASS" signature="fbefore()[pri:0, instance:Testcases.testngclass@5579bb86]" name="fbefore" is-config="true" duration-ms="25" started-at="2019-07-15T04:06:59Z" finished-at="2019-07-15T04:06:59Z">
+        <test-method status="PASS" signature="fbefore()[pri:0, instance:Testcases.testngclass@5d11346a]" name="fbefore" is-config="true" duration-ms="19" started-at="2019-07-30T04:22:15Z" finished-at="2019-07-30T04:22:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbefore -->
-        <test-method status="PASS" signature="fbeforeclass()[pri:0, instance:Testcases.testngclass@5579bb86]" name="fbeforeclass" is-config="true" duration-ms="1" started-at="2019-07-15T04:07:00Z" finished-at="2019-07-15T04:07:00Z">
+        <test-method status="PASS" signature="fbeforeclass()[pri:0, instance:Testcases.testngclass@5d11346a]" name="fbeforeclass" is-config="true" duration-ms="1" started-at="2019-07-30T04:22:15Z" finished-at="2019-07-30T04:22:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbeforeclass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Testcases.testngclass@5579bb86]" name="f" duration-ms="8" started-at="2019-07-15T04:07:00Z" finished-at="2019-07-15T04:07:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="fbeforemethod()[pri:0, instance:Testcases.testngclass@5579bb86]" name="fbeforemethod" is-config="true" duration-ms="0" started-at="2019-07-15T04:07:00Z" finished-at="2019-07-15T04:07:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fbeforemethod -->
-        <test-method status="PASS" signature="faftermethod()[pri:0, instance:Testcases.testngclass@5579bb86]" name="faftermethod" is-config="true" duration-ms="2" started-at="2019-07-15T04:07:00Z" finished-at="2019-07-15T04:07:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- faftermethod -->
-        <test-method status="PASS" signature="fbeforemethod()[pri:0, instance:Testcases.testngclass@5579bb86]" name="fbeforemethod" is-config="true" duration-ms="1" started-at="2019-07-15T04:07:00Z" finished-at="2019-07-15T04:07:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fbeforemethod -->
-        <test-method status="PASS" signature="f2()[pri:1, instance:Testcases.testngclass@5579bb86]" name="f2" duration-ms="2" started-at="2019-07-15T04:07:00Z" finished-at="2019-07-15T04:07:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f2 -->
-        <test-method status="PASS" signature="faftermethod()[pri:0, instance:Testcases.testngclass@5579bb86]" name="faftermethod" is-config="true" duration-ms="1" started-at="2019-07-15T04:07:00Z" finished-at="2019-07-15T04:07:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- faftermethod -->
-        <test-method status="PASS" signature="f1()[pri:2, instance:Testcases.testngclass@5579bb86]" name="f1" duration-ms="2" started-at="2019-07-15T04:07:00Z" finished-at="2019-07-15T04:07:00Z">
+        <test-method status="PASS" signature="f1()[pri:2, instance:Testcases.testngclass@5d11346a]" name="f1" duration-ms="9" started-at="2019-07-30T04:22:15Z" finished-at="2019-07-30T04:22:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f1 -->
-        <test-method status="PASS" signature="fbeforemethod()[pri:0, instance:Testcases.testngclass@5579bb86]" name="fbeforemethod" is-config="true" duration-ms="0" started-at="2019-07-15T04:07:00Z" finished-at="2019-07-15T04:07:00Z">
+        <test-method status="PASS" signature="fbeforemethod()[pri:0, instance:Testcases.testngclass@5d11346a]" name="fbeforemethod" is-config="true" duration-ms="0" started-at="2019-07-30T04:22:15Z" finished-at="2019-07-30T04:22:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fbeforemethod -->
-        <test-method status="PASS" signature="faftermethod()[pri:0, instance:Testcases.testngclass@5579bb86]" name="faftermethod" is-config="true" duration-ms="0" started-at="2019-07-15T04:07:00Z" finished-at="2019-07-15T04:07:00Z">
+        <test-method status="PASS" signature="faftermethod()[pri:0, instance:Testcases.testngclass@5d11346a]" name="faftermethod" is-config="true" duration-ms="0" started-at="2019-07-30T04:22:15Z" finished-at="2019-07-30T04:22:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- faftermethod -->
-        <test-method status="PASS" signature="fafter()[pri:0, instance:Testcases.testngclass@5579bb86]" name="fafter" is-config="true" duration-ms="1" started-at="2019-07-15T04:07:00Z" finished-at="2019-07-15T04:07:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fafter -->
-        <test-method status="PASS" signature="fafterclass()[pri:0, instance:Testcases.testngclass@5579bb86]" name="fafterclass" is-config="true" duration-ms="0" started-at="2019-07-15T04:07:00Z" finished-at="2019-07-15T04:07:00Z">
+        <test-method status="PASS" signature="fafterclass()[pri:0, instance:Testcases.testngclass@5d11346a]" name="fafterclass" is-config="true" duration-ms="0" started-at="2019-07-30T04:22:15Z" finished-at="2019-07-30T04:22:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fafterclass -->
+        <test-method status="PASS" signature="fafter()[pri:0, instance:Testcases.testngclass@5d11346a]" name="fafter" is-config="true" duration-ms="0" started-at="2019-07-30T04:22:15Z" finished-at="2019-07-30T04:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fafter -->
       </class> <!-- Testcases.testngclass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test(failed)(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
 </testng-results>
