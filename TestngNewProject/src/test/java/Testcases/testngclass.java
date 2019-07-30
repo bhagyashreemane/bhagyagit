@@ -2,6 +2,7 @@ package Testcases;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 //import org.testng.annotations.BeforeTest;
 //import org.testng.annotations.Test;
@@ -22,7 +23,7 @@ public class testngclass {
   public void f() {
 	  System.out.println("test1");
   }
-//@Test(expectedExceptions = { IOException.class })
+@Test(expectedExceptions = { IOException.class })
   public void exceptionTestOne() throws Exception {
 	  System.out.println("exception");
       throw new IOException();
@@ -30,10 +31,12 @@ public class testngclass {
   @Test(priority=1)
   public void f2() {
 	  System.out.println("test2");
+	  Assert.assertTrue(true);
   }
   @Test(priority=2)
   public void f1() {
 	  System.out.println("test3");
+	  Assert.assertTrue(true);
   }
   
   @AfterTest
